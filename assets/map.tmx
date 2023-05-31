@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="26" height="20" tilewidth="32" tileheight="32" nextobjectid="204">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="26" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="52">
  <tileset firstgid="1" name="wall-square" tilewidth="32" tileheight="32" tilecount="1" columns="1">
   <image source="wall-square.png" width="32" height="32"/>
   <tile id="0">
    <properties>
-    <property name="name" value="Wall"/>
+    <property name="Name" value="Wall"/>
    </properties>
   </tile>
  </tileset>
@@ -12,145 +12,106 @@
   <image source="brick-colors.png" width="128" height="128"/>
   <tile id="0">
    <properties>
-    <property name="color" value="red"/>
-    <property name="name" value="Brick"/>
+    <property name="Color" value="Red"/>
+    <property name="Name" value="Brick"/>
    </properties>
   </tile>
   <tile id="1">
    <properties>
-    <property name="color" value="orange"/>
-    <property name="name" value="Brick"/>
+    <property name="Color" value="Orange"/>
+    <property name="Name" value="Brick"/>
    </properties>
   </tile>
   <tile id="2">
    <properties>
-    <property name="color" value="yellow"/>
-    <property name="name" value="Brick"/>
+    <property name="Color" value="Yellow"/>
+    <property name="Name" value="Brick"/>
    </properties>
   </tile>
   <tile id="3">
    <properties>
-    <property name="color" value="green"/>
-    <property name="name" value="Brick"/>
+    <property name="Color" value="Green"/>
+    <property name="Name" value="Brick"/>
    </properties>
   </tile>
   <tile id="4">
    <properties>
-    <property name="color" value="blue"/>
-    <property name="name" value="Brick"/>
+    <property name="Color" value="Blue"/>
+    <property name="Name" value="Brick"/>
    </properties>
   </tile>
   <tile id="5">
    <properties>
-    <property name="color" value="purple"/>
-    <property name="name" value="Brick"/>
+    <property name="Color" value="Purple"/>
+    <property name="Name" value="Brick"/>
    </properties>
   </tile>
   <tile id="6">
    <properties>
-    <property name="color" value="white"/>
-    <property name="name" value="Brick"/>
+    <property name="Color" value="White"/>
+    <property name="Name" value="Brick"/>
    </properties>
   </tile>
   <tile id="7">
    <properties>
-    <property name="color" value="gray"/>
-    <property name="name" value="Brick"/>
+    <property name="Color" value="Gray"/>
+    <property name="Name" value="Brick"/>
    </properties>
   </tile>
  </tileset>
- <imagelayer name="Image Layer 1">
+ <imagelayer id="3" name="Image Layer 1">
   <image source="large-space.png" width="832" height="640"/>
  </imagelayer>
- <objectgroup name="Object Layer 1">
-  <object id="1" gid="1" x="0" y="64" width="832" height="64"/>
-  <object id="2" gid="1" x="0" y="640" width="32" height="576"/>
-  <object id="3" gid="1" x="800" y="640" width="32" height="576"/>
-  <object id="4" gid="2" x="96" y="160" width="64" height="32"/>
-  <object id="6" gid="2" x="96" y="224" width="64" height="32"/>
-  <object id="9" gid="2" x="224" y="160" width="64" height="32"/>
-  <object id="10" gid="3" x="160" y="192" width="64" height="32"/>
-  <object id="11" gid="3" x="160" y="224" width="64" height="32"/>
-  <object id="12" gid="3" x="160" y="256" width="64" height="32"/>
-  <object id="14" gid="3" x="224" y="192" width="64" height="32"/>
-  <object id="15" gid="3" x="288" y="192" width="64" height="32"/>
-  <object id="16" gid="3" x="352" y="192" width="64" height="32"/>
-  <object id="17" gid="4" x="224" y="224" width="64" height="32"/>
-  <object id="18" gid="4" x="224" y="256" width="64" height="32"/>
-  <object id="19" gid="4" x="288" y="224" width="64" height="32"/>
-  <object id="21" gid="2" x="352" y="160" width="64" height="32"/>
-  <object id="23" gid="2" x="480" y="160" width="64" height="32"/>
-  <object id="25" gid="2" x="608" y="160" width="64" height="32"/>
-  <object id="27" gid="2" x="672" y="192" width="64" height="32"/>
-  <object id="29" gid="2" x="672" y="256" width="64" height="32"/>
-  <object id="30" gid="2" x="96" y="288" width="64" height="32"/>
-  <object id="32" gid="2" x="96" y="352" width="64" height="32"/>
-  <object id="34" gid="2" x="96" y="416" width="64" height="32"/>
-  <object id="35" gid="5" x="288" y="256" width="64" height="32"/>
-  <object id="36" gid="6" x="352" y="288" width="64" height="32"/>
-  <object id="37" gid="6" x="416" y="288" width="64" height="32"/>
-  <object id="38" gid="6" x="416" y="320" width="64" height="32"/>
-  <object id="39" gid="6" x="352" y="320" width="64" height="32"/>
-  <object id="40" gid="5" x="288" y="320" width="64" height="32"/>
-  <object id="42" gid="5" x="288" y="288" width="64" height="32"/>
-  <object id="43" gid="5" x="288" y="352" width="64" height="32"/>
-  <object id="44" gid="5" x="352" y="352" width="64" height="32"/>
-  <object id="48" gid="5" x="416" y="352" width="64" height="32"/>
-  <object id="49" gid="5" x="480" y="352" width="64" height="32"/>
-  <object id="50" gid="5" x="480" y="320" width="64" height="32"/>
-  <object id="51" gid="5" x="480" y="288" width="64" height="32"/>
-  <object id="52" gid="5" x="480" y="256" width="64" height="32"/>
-  <object id="53" gid="5" x="416" y="256" width="64" height="32"/>
-  <object id="54" gid="5" x="352" y="256" width="64" height="32"/>
-  <object id="55" gid="4" x="352" y="224" width="64" height="32"/>
-  <object id="56" gid="4" x="416" y="224" width="64" height="32"/>
-  <object id="58" gid="4" x="480" y="224" width="64" height="32"/>
-  <object id="59" gid="4" x="544" y="224" width="64" height="32"/>
-  <object id="60" gid="4" x="544" y="256" width="64" height="32"/>
-  <object id="61" gid="4" x="544" y="288" width="64" height="32"/>
-  <object id="62" gid="4" x="544" y="320" width="64" height="32"/>
-  <object id="63" gid="4" x="544" y="352" width="64" height="32"/>
-  <object id="64" gid="4" x="544" y="384" width="64" height="32"/>
-  <object id="65" gid="4" x="480" y="384" width="64" height="32"/>
-  <object id="66" gid="4" x="416" y="384" width="64" height="32"/>
-  <object id="67" gid="4" x="352" y="384" width="64" height="32"/>
-  <object id="68" gid="4" x="288" y="384" width="64" height="32"/>
-  <object id="69" gid="4" x="224" y="384" width="64" height="32"/>
-  <object id="70" gid="4" x="224" y="352" width="64" height="32"/>
-  <object id="71" gid="4" x="224" y="320" width="64" height="32"/>
-  <object id="72" gid="4" x="224" y="288" width="64" height="32"/>
-  <object id="73" gid="3" x="416" y="192" width="64" height="32"/>
-  <object id="74" gid="3" x="480" y="192" width="64" height="32"/>
-  <object id="75" gid="3" x="544" y="192" width="64" height="32"/>
-  <object id="76" gid="3" x="608" y="192" width="64" height="32"/>
-  <object id="78" gid="3" x="160" y="288" width="64" height="32"/>
-  <object id="79" gid="3" x="160" y="320" width="64" height="32"/>
-  <object id="80" gid="3" x="160" y="352" width="64" height="32"/>
-  <object id="81" gid="3" x="160" y="384" width="64" height="32"/>
-  <object id="82" gid="3" x="160" y="416" width="64" height="32"/>
-  <object id="83" gid="3" x="224" y="416" width="64" height="32"/>
-  <object id="84" gid="3" x="288" y="416" width="64" height="32"/>
-  <object id="85" gid="3" x="352" y="416" width="64" height="32"/>
-  <object id="86" gid="3" x="416" y="416" width="64" height="32"/>
-  <object id="87" gid="3" x="480" y="416" width="64" height="32"/>
-  <object id="88" gid="3" x="544" y="416" width="64" height="32"/>
-  <object id="90" gid="3" x="608" y="416" width="64" height="32"/>
-  <object id="91" gid="3" x="608" y="384" width="64" height="32"/>
-  <object id="92" gid="3" x="608" y="352" width="64" height="32"/>
-  <object id="93" gid="3" x="608" y="320" width="64" height="32"/>
-  <object id="94" gid="3" x="608" y="288" width="64" height="32"/>
-  <object id="95" gid="3" x="608" y="256" width="64" height="32"/>
-  <object id="96" gid="3" x="608" y="224" width="64" height="32"/>
-  <object id="98" gid="2" x="672" y="320" width="64" height="32"/>
-  <object id="100" gid="2" x="672" y="384" width="64" height="32"/>
-  <object id="102" gid="2" x="672" y="448" width="64" height="32"/>
-  <object id="104" gid="2" x="160" y="448" width="64" height="32"/>
-  <object id="106" gid="2" x="288" y="448" width="64" height="32"/>
-  <object id="112" gid="2" x="416" y="448" width="64" height="32"/>
-  <object id="114" gid="2" x="544" y="448" width="64" height="32"/>
-  <object id="117" x="416" y="576" width="32" height="32">
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="3" gid="1" x="0" y="64" width="832" height="64"/>
+  <object id="5" gid="1" x="0" y="640" width="32" height="576"/>
+  <object id="7" gid="1" x="800" y="640" width="32" height="576"/>
+  <object id="8" gid="6" x="416" y="289.333" width="64" height="32"/>
+  <object id="9" gid="6" x="416" y="320" width="64" height="32"/>
+  <object id="10" gid="6" x="352" y="288" width="64" height="32"/>
+  <object id="11" gid="6" x="353.333" y="318.667" width="64" height="32"/>
+  <object id="12" gid="6" x="542.667" y="305.333" width="64" height="32"/>
+  <object id="13" gid="6" x="490.667" y="398.667" width="64" height="32"/>
+  <object id="14" gid="6" x="206.667" y="378.667" width="64" height="32"/>
+  <object id="15" gid="6" x="248" y="210.667" width="64" height="32"/>
+  <object id="16" gid="6" x="510.667" y="228" width="64" height="32"/>
+  <object id="17" gid="2" x="508" y="352" width="64" height="32"/>
+  <object id="18" gid="2" x="364" y="360" width="64" height="32"/>
+  <object id="19" gid="2" x="238.667" y="306.667" width="64" height="32"/>
+  <object id="20" gid="2" x="340" y="234.667" width="64" height="32"/>
+  <object id="21" gid="2" x="434.667" y="236" width="64" height="32"/>
+  <object id="22" gid="3" x="481.333" y="285.333" width="64" height="32"/>
+  <object id="23" gid="3" x="424" y="386.667" width="64" height="32"/>
+  <object id="24" gid="3" x="292" y="372" width="64" height="32"/>
+  <object id="25" gid="3" x="202.667" y="253.333" width="64" height="32"/>
+  <object id="26" gid="4" x="545.333" y="262.667" width="64" height="32"/>
+  <object id="27" gid="4" x="273.333" y="273.333" width="64" height="32"/>
+  <object id="28" gid="5" x="654.667" y="332" width="64" height="32"/>
+  <object id="29" gid="5" x="618.667" y="240" width="64" height="32"/>
+  <object id="30" gid="7" x="441.333" y="352" width="64" height="32"/>
+  <object id="31" gid="7" x="256" y="338.667" width="64" height="32"/>
+  <object id="32" gid="7" x="166.667" y="298.667" width="64" height="32"/>
+  <object id="33" gid="8" x="198.667" y="438.667" width="64" height="32"/>
+  <object id="34" gid="8" x="198.667" y="438.667" width="64" height="32"/>
+  <object id="35" gid="8" x="342.667" y="444" width="64" height="32"/>
+  <object id="36" gid="8" x="397.333" y="157.333" width="64" height="32"/>
+  <object id="37" gid="8" x="652" y="174.667" width="64" height="32"/>
+  <object id="38" gid="8" x="49.3333" y="150.667" width="64" height="32"/>
+  <object id="39" gid="8" x="78.6667" y="260" width="64" height="32"/>
+  <object id="40" gid="8" x="158.667" y="162.667" width="64" height="32"/>
+  <object id="41" gid="9" x="104" y="353.333" width="64" height="32"/>
+  <object id="42" gid="9" x="100" y="412" width="64" height="32"/>
+  <object id="43" gid="9" x="58.6667" y="305.333" width="64" height="32"/>
+  <object id="44" gid="9" x="120" y="213.333" width="64" height="32"/>
+  <object id="45" gid="9" x="253.333" y="129.333" width="64" height="32"/>
+  <object id="46" gid="9" x="510.667" y="130.667" width="64" height="32"/>
+  <object id="47" gid="9" x="566.667" y="176" width="64" height="32"/>
+  <object id="48" gid="9" x="708" y="277.333" width="64" height="32"/>
+  <object id="49" gid="9" x="604" y="392" width="64" height="32"/>
+  <object id="50" gid="9" x="709.333" y="377.333" width="64" height="32"/>
+  <object id="51" x="333.333" y="589.333" width="125.333" height="18.6667">
    <properties>
-    <property name="name" value="start"/>
+    <property name="Name" value="Start"/>
    </properties>
   </object>
  </objectgroup>
